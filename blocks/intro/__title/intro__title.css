@@ -13,3 +13,8 @@ margin-top: 92px;
         margin-top: 88px;
     }
 }
+@media screen and (max-width: 320px){
+    .intro__title{
+       margin-top: 86px;
+    }
+}

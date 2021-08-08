@@ -6,6 +6,9 @@
     
     
 }
+.cover:hover .cover__overlay{
+    opacity: 0.8;
+}
 @media screen and (max-width: 1280px) {
     .cover{
         width: 100%;

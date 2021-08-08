@@ -41,7 +41,13 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
+h2 {
+  margin: 0px;
+  font-weight: normal;
+}
+p {
+margin: 0px;
+}
 /* Grouping content
    ========================================================================== */
 

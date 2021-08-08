@@ -4,7 +4,6 @@
   align-items: flex-end;
   justify-content: space-between;
   margin-top: 28px;
-  height: 52px;
   width: 90%;
 }
 @media screen and (max-width: 320px){

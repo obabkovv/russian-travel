@@ -1,10 +1,9 @@
 .footer__copyright{
-/*width: 186px;*/
-min-height: 16px;
-font-size: 14px;
-line-height: 114%;
-text-align: right;
-color: #FFFFFF;
+    min-height: 16px;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: right;
+    color: #FFFFFF;
 }
 @media screen and (max-width: 768px) {
     .footer__copyright{

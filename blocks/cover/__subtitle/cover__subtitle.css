@@ -1,16 +1,15 @@
 .cover__subtitle{
-width: 360px;
-max-height: 66px;
-font-size: 1.125em;
-line-height: 122%;
-z-index: 1;
-text-align: center;
-grid-column: 1/1;
-grid-row: 2/2;
-color: #FFFFFF;
-align-self: start;
-justify-self: center;
-text-decoration: none;
+    width: 360px;
+    font-size: 1.125em;
+    line-height: 122%;
+    z-index: 1;
+    text-align: center;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    color: #FFFFFF;
+    align-self: start;
+    justify-self: center;
+    text-decoration: none;
 }
 @media screen and (max-width: 768px) {
     .cover__subtitle{

@@ -1,11 +1,13 @@
 .page{
     background-color: #2A2C2F;
-    font-family: Inter;
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 320px;
+    max-width: 1280px;
 }
 h2 {
     margin: 0px;

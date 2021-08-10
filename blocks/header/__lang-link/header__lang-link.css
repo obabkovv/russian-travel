@@ -6,6 +6,12 @@
     line-height: 28px;
     
 }
+@media screen and (max-width: 1280px) {
+    .header__lang-link{
+        padding-top: 18px;
+        padding-bottom: 6px;
+    }
+}
 @media screen and (max-width: 320px){
     .header__lang-link{
         padding-top: 14px;
@@ -14,21 +20,4 @@
         line-height: 20px;
     }
 }
-@media screen and (max-width: 768px) and (min-width: 321px){
-    .header__lang-link{
-        padding-top: 18px;
-        padding-bottom: 6px;
-    }
-}
-@media screen and (max-width: 1024px) and (min-width: 769px){
-    .header__lang-link{
-        padding-top: 18px;
-        padding-bottom: 6px;
-    }
-}
-@media screen and (max-width: 1280px) and (min-width: 1025px){
-    .header__lang-link{
-        padding-top: 18px;
-        padding-bottom: 6px;
-    }
-}
+

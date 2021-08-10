@@ -1,10 +1,8 @@
 .cover{
     width: 1184px;
-    height: 740px;
     margin-top: 92px;
     display: grid;
-    
-    
+    min-height: 740px;
 }
 .cover:hover .cover__overlay{
     opacity: 0.8;

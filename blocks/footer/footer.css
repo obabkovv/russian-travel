@@ -16,7 +16,6 @@
 @media screen and (max-width: 768px) {
     .footer{
         width: 90%;
-        height: 310px;
         grid-template-columns: 1fr;
         margin-top: 64px;
     }

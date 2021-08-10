@@ -3,6 +3,11 @@
     grid-row-end: 4;
     max-width: 460px;
 }
+@media screen and (max-width: 768px) {
+    .place__image{
+        max-width: 100%;
+    }
+}
 @media screen and (max-width: 720px) {
     .place__image{
         max-width: 100%;

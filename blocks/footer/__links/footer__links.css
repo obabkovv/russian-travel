@@ -1,0 +1,10 @@
+.footer__links{
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    grid-auto-flow: dense;
+    gap: 18px;
+}
+@media screen and (max-width: 320px) {
+    .footer__links{
+        grid-template-columns: 1fr;
+    }

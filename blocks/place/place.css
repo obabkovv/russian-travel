@@ -3,17 +3,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows:auto;
     margin-bottom: 80px;
-    gap: 3em 2.5em;
+    gap: 0 2.5em;
     max-width: 984px;
-}
-@media screen and (max-width: 1280px) {
-    .place{
-        width: 928px;
-    }
 }
 @media screen and (max-width: 1024px) {
     .place{
-        width: 720px;
+        gap: 0 2em;
     }
 }
 @media screen and (max-width: 720px) {
@@ -22,6 +17,6 @@
         grid-template-columns: 1fr;
         justify-items: center;
         margin-bottom: 50px;
-        gap: 2em;
+        gap: 0 1.75em;
     }
 }

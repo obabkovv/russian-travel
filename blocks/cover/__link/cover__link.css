@@ -1,0 +1,17 @@
+.cover__link{
+    width: 1184px;
+    display: grid;
+    min-height: 740px;
+    text-decoration: none;
+    align-self: center;
+    max-width: 1184px;
+}
+.cover__link:hover .cover__overlay{
+    opacity: 0.8;
+}
+@media screen and (max-width: 1280px) {
+    .cover__link{
+        width: 100%;
+        min-height: 62.5vw;
+    }
+}

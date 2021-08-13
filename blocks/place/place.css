@@ -1,22 +1,25 @@
 .place{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:auto;
+    grid-template-columns:  47% auto;
+    grid-template-rows: min-content;
     margin-bottom: 80px;
-    gap: 0 2.5em;
+    gap: 0 40px;
     max-width: 984px;
+    align-self: start;
 }
 @media screen and (max-width: 1024px) {
     .place{
         gap: 0 2em;
+        margin-bottom: 43px;
     }
 }
 @media screen and (max-width: 720px) {
     .place{
         width: 100%;
         grid-template-columns: 1fr;
+        grid-template-rows: auto;
         justify-items: center;
-        margin-bottom: 50px;
-        gap: 0 1.75em;
+        margin-bottom: 41px;
+        gap: 2em 1.75em;
     }
 }

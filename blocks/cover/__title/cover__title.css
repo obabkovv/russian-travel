@@ -13,7 +13,7 @@
     justify-self: center;
     text-decoration: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
     .cover__title{
         font-size: 32px;
         line-height: 109%;
